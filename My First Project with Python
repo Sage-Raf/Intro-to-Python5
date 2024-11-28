@@ -1,0 +1,27 @@
+Bubblegum = 202
+Toffee = 118
+Ice_Cream = 2250
+Milk_Chocolate = 1680
+Doughnut = 1075
+Pancake = 80
+
+Income = Bubblegum + Toffee + Ice_Cream + Milk_Chocolate + Doughnut + Pancake
+Net_Income = 0
+
+print("Earned amount:")
+print("Bubblegum: $202")
+print("Toffee: $118")
+print("Ice cream: $2250")
+print("Milk chocolate: $1680")
+print("Doughnut: $1075")
+print("Pancake: $80", "\n")
+
+print("Income: $",Income, sep="")
+print("Staff expenses:")
+Staff_Expenses = int(input())
+print("Other expenses:")
+Other_Expenses = int(input())
+
+Net_Income = Income - Staff_Expenses - Other_Expenses
+
+print("Net income: $", Net_Income, sep="")
